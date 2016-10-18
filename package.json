@@ -1,7 +1,7 @@
 {
   "name": "helloworlddevelopers",
   "version": "1.0.0",
-  "description": "",
+  "description": "Somos un grupo de desarrolladores que realizan paginas web y aplicaciones que se ajustan a tus necesidades",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
