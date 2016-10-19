@@ -1,16 +1,20 @@
 {
-  "name": "helloworlddevelopers",
+  "name": "reserva",
   "version": "1.0.0",
-  "description": "Somos un grupo de desarrolladores que realizan paginas web y aplicaciones que se ajustan a tus necesidades",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Miguel&Santiago",
+  "author": "snym",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "morgan": "^1.7.0"
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.0",
+    "mongoose": "^4.2.2",
+    "morgan": "^1.6.1",
+    "nodemailer": "^1.8.0"
   }
 }
