@@ -20,7 +20,7 @@ module.exports=function(app,express){
 			from:'HelloWorldPag',
 			to:'rivera-miguel@hotmail.com , jersson.sanchez@correo.usa.edu.co',
 			subject:'nueva actualizacion de La paggg!!!',
-			text:req.body.email+req.body.subject
+			text:'Email de: '+req.body.email+'\n'+'Texto'+'\n'+req.body.subject
 		},function(err,info){
 			if(err){
 				res.send(err);
