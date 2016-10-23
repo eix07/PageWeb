@@ -153,9 +153,9 @@ header {
   overflow-y: hidden;
   background: url("../img/bg-pattern.png"), #7b4397;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #444037, #dc2430);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #444037, #dc2430);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -240,7 +240,7 @@ section.download .badges .badge-link:last-child {
   margin-bottom: 0;
 }
 section.download .badges .badge-link img {
-  height: 60px;
+  height: 200px;
 }
 @media (min-width: 768px) {
   section.download .badges .badge-link {
@@ -302,7 +302,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/bgg.jpg');
   padding: 250px 0;
 }
 section.cta .cta-content {
