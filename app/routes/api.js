@@ -16,16 +16,19 @@ module.exports=function(app,express){
 
 	api.post('/send',function(req,res){
 		console.log(req.body.email);
+		console.log(req.body.subject);
 		transporter.sendMail({
 			from:'HelloWorldPag',
-			to:'rivera-miguel@hotmail.com , jersson.sanchez@correo.usa.edu.co',
+			to:'rivera-miguel@hotmail.com , santiagojersson@gmail.com',
 			subject:'nueva actualizacion de La paggg!!!',
 			text:'Email de: '+req.body.email+'\n'+'Texto'+'\n'+req.body.subject
 		},function(err,info){
 			if(err){
 				res.send(err);
 			}else{
-				console.log("sent!!")
+				console.log(info.rejected);
+				console.log(info.pending);
+				console.log("sent!!"+info.response);
 			}
 		});
 	});
