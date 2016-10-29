@@ -296,7 +296,7 @@ section.features .feature-item i {
   }
 }
 section.cta {
-  position: relative;
+  position: relative; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -304,6 +304,7 @@ section.cta {
   background-position: center;
   background-image: url('../img/bgg.jpg');
   padding: 250px 0;
+  color: white;
 }
 section.cta .cta-content {
   position: relative;
